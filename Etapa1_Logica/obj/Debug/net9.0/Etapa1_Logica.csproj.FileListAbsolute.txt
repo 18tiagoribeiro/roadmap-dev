@@ -1,0 +1,15 @@
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\obj\Debug\net9.0\Etapa1_Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\obj\Debug\net9.0\Etapa1_Logica.AssemblyInfoInputs.cache
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\obj\Debug\net9.0\Etapa1_Logica.AssemblyInfo.cs
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\obj\Debug\net9.0\Etapa1_Logica.csproj.CoreCompileInputs.cache
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\obj\Debug\net9.0\Etapa1_Logica.sourcelink.json
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\bin\Debug\net9.0\Etapa1_Logica.exe
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\bin\Debug\net9.0\Etapa1_Logica.deps.json
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\bin\Debug\net9.0\Etapa1_Logica.runtimeconfig.json
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\bin\Debug\net9.0\Etapa1_Logica.dll
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\bin\Debug\net9.0\Etapa1_Logica.pdb
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\obj\Debug\net9.0\Etapa1_Logica.dll
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\obj\Debug\net9.0\refint\Etapa1_Logica.dll
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\obj\Debug\net9.0\Etapa1_Logica.pdb
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\obj\Debug\net9.0\Etapa1_Logica.genruntimeconfig.cache
+C:\Users\tiagon\Desktop\roadmap-dev\roadmap-dev\Etapa1_Logica\obj\Debug\net9.0\ref\Etapa1_Logica.dll
