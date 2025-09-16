@@ -66,18 +66,22 @@ public class ControleDeFluxo
 
     public void Crescente()
     {
-        int numeroInicial = 0;
         Console.WriteLine("Verificação de números crescentes");
         Console.WriteLine("Digite um numero entre 0 a 10");
         int numeroCrescente = int.Parse(Console.ReadLine());
-        Console.WriteLine("\nOrdem Crescente:");
+        
+        if (numeroCrescente < 0 || numeroCrescente > 10)
+        {
+            Console.WriteLine("Número inválido, digite um número entre 0 e 10");
+            return;
+        }
 
+        Console.WriteLine("\nOrdem Crescente:");
         while (numeroCrescente < 10)
         {
-            numeroInicial = numeroCrescente + 1;
+            numeroCrescente ++;
             // ou apenas numeroInicial, neste caso ele repetirá o valor de numeroInicial
-            Console.WriteLine(numeroInicial);
-            numeroCrescente = numeroCrescente + 1;
+            Console.WriteLine(numeroCrescente);
         }
     }
 
