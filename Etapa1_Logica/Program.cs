@@ -40,12 +40,12 @@ class Program
     //    Console.WriteLine("Verificação finalizada!");
     //}
 
-    //static void Main(string[] args)
-    //{
-    //    ControleDeFluxo controleDeFluxo = new ControleDeFluxo();
-    //    controleDeFluxo.Crescente();
-    //    Console.WriteLine("Verificação finalizada!");
-    //}
+    static void Main(string[] args)
+    {
+        ControleDeFluxo controleDeFluxo = new ControleDeFluxo();
+        controleDeFluxo.Crescente();
+        Console.WriteLine("Verificação finalizada!");
+    }
 
     //static void Main(string[] args)
     //{
@@ -54,11 +54,11 @@ class Program
     //    Console.WriteLine("Verificação finalizada!");
     //}
 
-    static void Main(string[] args)
-    {
-        Numeral numeral = new Numeral();
-        numeral.Fatorial();
-        Console.WriteLine("Verificação finalizada!");
-    }
+    //static void Main(string[] args)
+    //{
+    //    Numeral numeral = new Numeral();
+    //    numeral.Fatorial();
+    //    Console.WriteLine("Verificação finalizada!");
+    //}
 }
 
