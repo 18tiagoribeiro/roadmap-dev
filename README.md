@@ -25,3 +25,27 @@ No metodo NumerosPrimos usei a estrutura de repetição FOR para imprimir os nú
 
 Etapa1_Logica/Fatorial
 Ja no metodo Fatorial usei a estrutura IF/ELSE para verificar se o numero é negativo, zero ou positivo. Se o número for negativo, o método retorna -1 para indicar que o fatorial não está definido para números negativos. Se o número for zero, o método retorna 1, pois o fatorial de zero é definido como 1. Para números positivos, usei um laço FOR para calcular o fatorial multiplicando todos os números inteiros de 1 até o numero escolhido pelo usuario. O metodo recebe um numero inteiro como parâmetro e retorna o fatorial desse número. Também criei um objeto no Program para testar o método.
+
+Etapa2_SQL/create_table.sql
+Foi criado o banco de dados chamado EmpresaDB e dentro do banco de dados foi criada a tabela Funcionarios com os seguintes campos: Id (inteiro, chave primaria), Nome (varchar(100), não nulo), Cargo (varchar(50)), Salario (decimal(10,2)), DataContratacao (date) e ID_Departamento (inteiro, chave estrangeira referenciando a tabela Departamentos). Já a tabela Departamentos foi criada com os seguintes campos: Id (inteiro, chave primaria), NomeDepartamento (varchar(100), não nulo).
+
+Etapa2_SQL/insert.sql
+Foram inseridos 3 registros na tabela Departamento  (1, TI; 2, Recursos Humanos; 3, Financeiro) e 6 registros na tabela Funcionarios (que segue esse padrão: (95, 'João', 'Analista JR', 1500, '2024-11-25', 3))
+
+Etapa2_SQL/select.sql
+Foram criadas 8 consultas no SQL. sendo elas:
+Selecionar todos os funcionários,
+Funcionários apenas nome e cargo da tabela Funcionarios,
+Todos os campos da tabela Funcionarios pelo campo salario em ordem decrescente,
+Todos os campos da tabela Funcionarios onde o DepartamentoID é igual a 1 (departamento de TI)
+Calculo da média salarial dos funcionários,
+Contagem do número total de funcionários,
+Todos os campos da tabela Funcionarios onde o salário é maior que 1400
+Todos os campos da tabela Funcionarios onde a data de contratação é posterior a 1º de janeiro de 2023
+
+Etapa2_SQL/update.sql
+Foram criadas 4 consultas de atualização no SQL. sendo elas:
+Aumentando o salário em 10% para todos os funcionários do departamento de RH
+Aumentando o salário para o funcionário com ID 98 em 30%
+Deletados todos os funcionários com salário menor ou igual a 1500
+Atualizando o cargo do funcionário com ID = 97
