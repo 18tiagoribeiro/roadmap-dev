@@ -51,7 +51,11 @@ Deletados todos os funcionários com salário menor ou igual a 1500
 Atualizando o cargo do funcionário com ID = 97
 
 Etapa3_Csharp/ContaBancaria
- Em ContaBancaria foi criada a pasta Modelos, dentro da pasta modelo contém 2 classes (Cliente e ContaBancaria).
- Na classe Cliente foi incluida algumas propriedades como Nome, CPF, DataNasicmento e Telefone. Tambem foi criada um contrutor publico que contem os parametros como: string nome, string cpf, datetime dataNascimento, string Telefone. Criado para iniciar o objeto com os dados especificos.
- Já na class Conta bancaria foi incluida as propiedades NumeroConta, Titular (que é do tipo Cliente) e Saldo. Criado também alguns contrutores como o proprio conta bancaria que recebe os parametros das propriedades, depositar(double valor), Sacar(double valor) que faz uma verificação para ver se o cliente tem saldo com o IF/ELSE como estrutura condicional para fazer a verificação e o ExbirDados que serve para organizar as informações que temos em um formato mais facil de ser visualizado quando chamado o método.
+   Em ContaBancaria foi criada a pasta Modelos, dentro da pasta modelo contém 2 classes (Cliente e ContaBancaria).
+   Na classe Cliente foi incluida algumas propriedades como Nome, CPF, DataNasicmento e Telefone.
+Tambem foi criada um contrutor publico que contem os parametros como: string nome, string cpf, datetime dataNascimento, string Telefone. Que foram criados para iniciar o objeto com os dados especificos.
+
+ Já na class Conta bancaria foi incluida as propiedades NumeroConta, Titular (que é do tipo Cliente) e Saldo. Criado também alguns contrutores como o proprio conta bancaria que recebe os parametros das propriedades, depositar(double valor), Sacar(double valor) - que faz uma verificação para ver se o cliente tem saldo com o IF/ELSE como estrutura condicional.
+ E o ExbirDados que serve para organizar as informações que temos em um formato mais facil de ser visualizado quando chamado o método.
+
  No program incluimos alguns dados para os clientes manualmente criando um new Cliente e colocando como parametro conforme colocamos na classe Cliente. Além disso temos os Métodos Depositar e Sacar para fazer os devidos testes (também incluindo manualmente) e o método ExibirDados que traz os dados da forma mais visual possivel.
