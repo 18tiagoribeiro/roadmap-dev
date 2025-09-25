@@ -59,3 +59,10 @@ Tambem foi criada um contrutor publico que contem os parametros como: string nom
  E o ExbirDados que serve para organizar as informações que temos em um formato mais facil de ser visualizado quando chamado o método.
 
  No program incluimos alguns dados para os clientes manualmente criando um new Cliente e colocando como parametro conforme colocamos na classe Cliente. Além disso temos os Métodos Depositar e Sacar para fazer os devidos testes (também incluindo manualmente) e o método ExibirDados que traz os dados da forma mais visual possivel.
+
+ Etapa3_Csharp/Agenda
+  Esse projeto Agenda cotém uma aplicação simples, na qual foram criado 1 classe que se chama Compromisso, dentro de compromisso temos 2 propiedades do tipo string (Nome e Telefone) e 1 propiedade do tipo DateTime (Data).
+Dentro dessa mesma classe tambem foi incluido 2 construtores: Compromisso que tem como objetivo iniciar a classe Compromisso com os parametros das propiedades. Incluido também um construtor chamado MOSTRAR, pra imprimir na tela de uma mais visual e organizada o resultado pós ter feito o compromisso na agenda.
+  Em program foi criado uma lista do tipo Compromisso que leva o nome de agenda, essa lista recebe os compromissos que o usuário incluiu, tambem foi inserido as interações com o usuário (Digite seu nome).
+Além disso incluir uma estrutura condicional IF/ELSE para validar se a data inserida é valida (se for no passado ele trás a mensagem de erro "Data invalida. Não é possivel agendar em uma data passada").
+  Por fim, foi inserido a estrutura de repetição FOREACH, que passa pela lista agenda imprimindo o resultado inserido pelo usuario, que é chamado pelo método MOSTRAR.
