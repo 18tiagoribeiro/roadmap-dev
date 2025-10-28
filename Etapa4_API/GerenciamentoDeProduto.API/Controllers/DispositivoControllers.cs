@@ -67,7 +67,7 @@ public class DispositivoController : ControllerBase
     [HttpPut]
     public async Task<ActionResult> UpdateDispositivo([FromBody] Dispositivo dispositivo)
     {
-        var atualizarDispositivo = await _context.Dispositivo.FirstOrDefaultAsync(d => d.Nome == dispositivo.Nome);
+        var atualizarDispositivo = await _context.Dispositivo.FirstOrDefaultAsync(d => d.Patrimonio == dispositivo.Patrimonio);
         if (atualizarDispositivo == null)
         {
             return NotFound("Dispositivo não encontrado.");

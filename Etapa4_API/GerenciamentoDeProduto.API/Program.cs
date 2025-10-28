@@ -12,7 +12,7 @@ var app = builder.Build();
 
 
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "API NO AR!");
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
